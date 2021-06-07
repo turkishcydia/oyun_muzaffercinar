@@ -8,7 +8,7 @@ var ctx = c.getContext("2d");
 
 
 // TANIMLAMA
-var bgcolor ="#ff4301";
+var bgcolor = "#ff4301";
 var forecolor = "#4a3f35";
 var linecolor = "#2f2519";
 var linewidth = 5;
