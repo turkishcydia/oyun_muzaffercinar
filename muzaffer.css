@@ -219,7 +219,7 @@ body{
 
 
 
-.buttonClass {
+.dilButonu {
   font-size:15px;
   font-family:Arial;
   width:140px;
@@ -237,6 +237,6 @@ body{
   background:#a73f2d;
 }
 
-.buttonClass:hover {
+.dilButonu:hover {
   background: transparent;
 }
