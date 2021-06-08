@@ -94,7 +94,7 @@ body{ margin: 0; padding: 0; background-color: var(--bg-color)}
 .cell.cross,cell.circle{ cursor: not-allowed; }
 
 .result{
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
