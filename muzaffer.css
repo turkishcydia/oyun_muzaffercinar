@@ -19,7 +19,7 @@ body{
   border-radius: 5px;
   max-width: 330px;
   width: 100%;
-  display: none;
+  display: flex;
 }
 
 .select-box header{
