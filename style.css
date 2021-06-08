@@ -85,11 +85,6 @@ body{ margin: 0; padding: 0; background-color: var(--bg-color)}
 }
 
 
-.board.cross .cell:not(.cross):not(.circle):hover::before,
-.board.cross .cell:not(.cross):not(.circle):hover::after,
-.board.circle .cell:not(.cross):not(.circle):hover::before{
-  background-color: var(--hover-color);
-}
 
 .cell.cross,cell.circle{ cursor: not-allowed; }
 
