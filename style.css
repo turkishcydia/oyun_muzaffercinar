@@ -47,3 +47,13 @@ body{ margin: 0; padding: 0; background-color: var(--bg-color)}
 }
 
 
+.cell.cross::before,
+.board.cross .cell:not(.cross):not(.circle):hover::before{
+  transform: rotate(45deg);
+}
+
+.cell.cross::after,
+.board.cross .cell:not(.cross):not(.circle):hover:after{
+  transform: rotate(-45deg);
+}
+
