@@ -7,10 +7,10 @@
 }
 ::selection{
   color: #fff;
-  background:#56baed;
+  background:	#FF4081;
 }
 body{
-  background:#56baed;
+  background:	#FF4081;
 }
 .select-box, .play-board, .result-box{
   position: absolute;
@@ -51,7 +51,7 @@ body{
   font-weight: 500;
   padding: 10px 0;
   border: none;
-  background: #56baed;
+  background: #FF4081;
   border-radius: 5px;
   color: #fff;
   outline: none;
@@ -75,7 +75,7 @@ body{
   font-weight: 500;
 }
 .select-box .credit a{
-  color: #56baed;
+  color: #FF4081;
   text-decoration: none;
 }
 .select-box .credit a:hover{
@@ -106,7 +106,7 @@ body{
 .players span{
   position: relative;
   z-index: 2;
-  color: #56baed;
+  color:	#FF4081;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 0;
@@ -120,7 +120,7 @@ body{
   color: #fff;
 }
 .players.active span:last-child{
-  color: #56baed;
+  color:	#FF4081;
 }
 .players span:first-child{
   color: #fff;
@@ -131,7 +131,7 @@ body{
   left: 0;
   width: 50%;
   height: 100%;
-  background: #56baed;
+  background:	#FF4081;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
@@ -139,7 +139,7 @@ body{
   left: 50%;
 }
 .players.active span:first-child{
-  color: #56baed;
+  color:	#FF4081;
 }
 .players.active span:nth-child(2){
   color: #fff;
@@ -159,7 +159,7 @@ body{
   height: 90px;
   width: 90px;
   margin: 2px;
-  color: #56baed;
+  color: #FF4081;
   font-size: 40px;
   line-height: 80px;
   text-align: center;
@@ -204,7 +204,7 @@ body{
   font-weight: 500;
   padding: 8px 20px;
   border: none;
-  background: #56baed;
+  background:	#FF4081;
   border-radius: 5px;
   color: #fff;
   outline: none;
