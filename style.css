@@ -1,1 +1,49 @@
+*,*::before,*::after{ box-sizing: border-box; }
+
+:root{
+  --bg-color: #000;
+  --text-color: #fff;
+  --border-color: #fff;
+  --line-color: #fff;
+  --hover-color: #666;
+  --cell-size: 100px;
+  --mark-size: 90px;
+}
+
+body{ margin: 0; padding: 0; background-color: var(--bg-color)}
+
+.board{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  border: 2px solid var(--border-color)
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+.cell.cross::before,
+.cell.cross::after,
+.board.cross .cell:not(.cross):not(.circle):hover::before,
+.board.cross .cell:not(.cross):not(.circle):hover::after{
+  content: '';
+  position: absolute;
+  width: calc(var(--mark-size) * .13);
+  height: var(--mark-size);
+  background-color: var(--line-color);
+}
+
 
