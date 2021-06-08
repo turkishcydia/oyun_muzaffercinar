@@ -30,8 +30,8 @@ const placeHover = () => {
 
 
 const endGame = (draw) => {
-  if(draw) resultText.innerText = 'Oyun Beraberlik İle Bitti'
-  else resulrText.innerText = `${turn ? 'O' : 'X'} Kazandı!`
+  if(draw) resultText.innerText = 'Oyun Beraberlik ile Bitti'
+  else resulrText.innerText = `${turn ? 'O' : 'X'} Kazandi!`
   
   result.classList.add('show')
 }
