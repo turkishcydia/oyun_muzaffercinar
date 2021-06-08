@@ -213,30 +213,16 @@ body{
 }
 
 
-
-
-
-
-
-
-.dilButonu {
-  font-size:15px;
-  font-family:Arial;
-  width:140px;
-  height:50px;
-  border-width:1px;
-  color:#fff;
-  border-color:#241d13;
-  font-weight:bold;
-  border-top-left-radius:0px;
-  border-top-right-radius:0px;
-  border-bottom-left-radius:0px;
-  border-bottom-right-radius:0px;
-  box-shadow:inset 0px 34px 0px -15px #b54b3a;
-  text-shadow:inset 0px -1px 0px #7a2a1d;
-  background:#a73f2d;
-}
-
-.dilButonu:hover {
-  background: transparent;
+.dilButton{
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1px 0;
+  border: none;
+  background: #fff;
+  border-radius: 10px;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
