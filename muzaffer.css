@@ -217,12 +217,9 @@ body{
   width: 100%;
   font-size: 20px;
   font-weight: 500;
-  padding: 1px 0;
+  padding: 10px 0;
   border: none;
   background: #fff;
   border-radius: 10px;
   color: #000;
-  outline: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
