@@ -22,7 +22,7 @@ body{
 .select-box{
   background: #fff;
   padding: 20px 25px 25px;
-  border-radius: 5px;
+  border-radius: 10px;
   max-width: 400px;
   width: 100%;
 }
@@ -52,7 +52,7 @@ body{
   padding: 10px 0;
   border: none;
   background: #FF4081;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
   outline: none;
   cursor: pointer;
@@ -94,7 +94,7 @@ body{
 }
 .play-board .details{
   padding: 7px;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #fff;
 }
 .play-board .players{
@@ -163,7 +163,7 @@ body{
   font-size: 40px;
   line-height: 80px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #fff;
 }
 
@@ -205,7 +205,7 @@ body{
   padding: 8px 20px;
   border: none;
   background:	#FF4081;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
   outline: none;
   cursor: pointer;
