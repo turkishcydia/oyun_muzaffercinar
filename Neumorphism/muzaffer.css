@@ -21,8 +21,8 @@ body{
 }
 .select-box{
   position: relative;
-  width: 100%;
-  margin: 0;
+  width: 200%;
+  margin: 100px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.q);
