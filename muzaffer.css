@@ -22,7 +22,7 @@ body{
 .select-box{
   background: #fff;
   padding: 20px 25px 25px;
-  border-radius: 5px;
+  border-radius: 11px;
   max-width: 400px;
   width: 100%;
 }
@@ -52,7 +52,7 @@ body{
   padding: 10px 0;
   border: none;
   background:	#EA80FC;
-  border-radius: 5px;
+  border-radius: 15px;
   color: #fff;
   outline: none;
   cursor: pointer;
