@@ -112,7 +112,7 @@ body{
 .players span{
   position: relative;
   z-index: 2;
-  color:	#fff;
+  color:	#FF4081;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 0;
@@ -165,7 +165,7 @@ body{
   height: 90px;
   width: 90px;
   margin: 2px;
-  color: #FF4081;
+  color: #fff;
   font-size: 40px;
   line-height: 80px;
   text-align: center;
