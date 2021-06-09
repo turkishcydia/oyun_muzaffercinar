@@ -7,10 +7,10 @@
 }
 ::selection{
   color: #fff;
-  background:	#81D4FA;
+  background:	#EA80FC;
 }
 body{
-  background:	#81D4FA;
+  background:	#EA80FC;
 }
 .select-box, .play-board, .result-box{
   position: absolute;
@@ -51,7 +51,7 @@ body{
   font-weight: 500;
   padding: 10px 0;
   border: none;
-  background:	#81D4FA;
+  background:	#EA80FC;
   border-radius: 5px;
   color: #fff;
   outline: none;
@@ -106,7 +106,7 @@ body{
 .players span{
   position: relative;
   z-index: 2;
-  color:	#81D4FA;
+  color:	#EA80FC;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 0;
@@ -120,7 +120,7 @@ body{
   color: #fff;
 }
 .players.active span:last-child{
-  color:	#81D4FA;
+  color:	#EA80FC;
 }
 .players span:first-child{
   color: #fff;
@@ -131,7 +131,7 @@ body{
   left: 0;
   width: 50%;
   height: 100%;
-  background:	#81D4FA;
+  background:	#EA80FC;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
@@ -139,7 +139,7 @@ body{
   left: 50%;
 }
 .players.active span:first-child{
-  color:	#81D4FA;
+  color:	#EA80FC;
 }
 .players.active span:nth-child(2){
   color: #fff;
@@ -159,7 +159,7 @@ body{
   height: 90px;
   width: 90px;
   margin: 2px;
-  color:	#81D4FA;
+  color:	#EA80FC;
   font-size: 40px;
   line-height: 80px;
   text-align: center;
@@ -204,7 +204,7 @@ body{
   font-weight: 500;
   padding: 8px 20px;
   border: none;
-  background:	#81D4FA;
+  background:	#EA80FC;
   border-radius: 5px;
   color: #fff;
   outline: none;
