@@ -62,10 +62,10 @@ body{
 .btn button:hover{
   transform: scale(0.96);
 }
-.options button.playerX{
+.options button.dilTusu{
   margin-right: 5px;
 }
-.options button.playerO{
+.options button.dilTusu{
   margin-left: 5px;
 }
 .select-box .credit{
