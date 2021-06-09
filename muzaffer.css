@@ -131,7 +131,8 @@ body{
   left: 0;
   width: 50%;
   height: 100%;
-  background:	#EA80FC;
+  background-image: linear-gradient(left top, #FF9900, #FF0000, transparent),
+  -moz-linear-gradient(right top, #FF9900, #FF0000, transparent);
   border-radius: 5px;
   transition: all 0.3s ease;
 }
@@ -164,7 +165,7 @@ body{
   height: 90px;
   width: 90px;
   margin: 2px;
-  color:	#EA80FC;
+  color:	#fff;
   font-size: 40px;
   line-height: 80px;
   text-align: center;
