@@ -131,8 +131,8 @@ body{
   left: 0;
   width: 50%;
   height: 100%;
-  background: #EA80FC;
-  border-radius: 5px;
+  background: linear-gradient(#EA80FC, purple);
+  border-radius: 7px;
   transition: all 0.3s ease;
 }
 .players.active .slider{
