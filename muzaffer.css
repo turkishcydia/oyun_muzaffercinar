@@ -131,9 +131,9 @@ body{
   left: 0;
   width: 50%;
   height: 100%;
-  background: rgb(228,0,255);
-  background: linear-gradient(140deg, rgba(228,0,255,1) 0%, rgba(234,128,252,1) 50%);
-  border-radius: 11px;
+  background: rgb(234,96,252);
+  background: linear-gradient(140deg, rgba(234,96,252,1) 0%, rgba(234,128,252,1) 50%);
+  border-radius: 10px;
   transition: all 0.3s ease;
 }
 .players.active .slider{
