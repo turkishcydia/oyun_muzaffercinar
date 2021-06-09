@@ -51,7 +51,7 @@ body{
   font-weight: 500;
   padding: 10px 0;
   border: none;
-  background: #FF4081;
+  background: #F57C00;
   border-radius: 10px;
   color: #fff;
   outline: none;
@@ -75,7 +75,7 @@ body{
   font-weight: 500;
 }
 .select-box .credit a{
-  color: #FF4081;
+  color:	#F57C00;
   text-decoration: none;
 }
 .select-box .credit a:hover{
@@ -204,7 +204,7 @@ body{
   font-weight: 500;
   padding: 8px 20px;
   border: none;
-  background:	#FF4081;
+  background:	#F57C00;
   border-radius: 10px;
   color: #fff;
   outline: none;
