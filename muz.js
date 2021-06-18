@@ -2,7 +2,6 @@
 
 //selecting all required elements
 const selectBox = document.querySelector(".select-box"),
-butdates = extraMenu.querySelector(".butdate"),
 selectBtnX = selectBox.querySelector(".options .playerX"),
 selectBtnO = selectBox.querySelector(".options .playerO"),
 playBoard = document.querySelector(".play-board"),
@@ -21,7 +20,6 @@ window.onload = ()=>{ //once window loaded
 selectBtnX.onclick = ()=>{
     selectBox.classList.add("hide"); //hide select box
     playBoard.classList.add("show"); //show the playboard section
-    butdates.classList.add("hide"); // hide extraMenu
 }
 
 selectBtnO.onclick = ()=>{ 
