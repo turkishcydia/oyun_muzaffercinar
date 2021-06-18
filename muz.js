@@ -2,7 +2,7 @@
 
 //selecting all required elements
 const selectBox = document.querySelector(".select-box"),
-butdates = selectBox.querySelector(".butdate"),
+butdates = extraMenu.querySelector(".butdate"),
 selectBtnX = selectBox.querySelector(".options .playerX"),
 selectBtnO = selectBox.querySelector(".options .playerO"),
 playBoard = document.querySelector(".play-board"),
