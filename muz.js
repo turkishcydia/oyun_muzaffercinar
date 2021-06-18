@@ -21,7 +21,7 @@ window.onload = ()=>{ //once window loaded
 selectBtnX.onclick = ()=>{
     selectBox.classList.add("hide"); //hide select box
     playBoard.classList.add("show"); //show the playboard section
-    extraMenu.classList.add("hide"); // hide extraMenu
+    butdates.classList.add("hide"); // hide extraMenu
 }
 
 selectBtnO.onclick = ()=>{ 
