@@ -132,7 +132,7 @@ body{
   width: 50%;
   height: 100%;
   background:	#FF4081;
-  border-radius: 5px;
+  border-radius: 7px;
   transition: all 0.3s ease;
 }
 .players.active .slider{
