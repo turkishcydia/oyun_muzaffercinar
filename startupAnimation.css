@@ -45,6 +45,9 @@ body{
   display: flex;
   width: 90%;
   font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 .options button{
   width: 100%;
