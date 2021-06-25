@@ -1,8 +1,7 @@
 <form name="form1" action="#" method="post" onsubmit="return validateForm()">
  <table>
-  <tr><td>İsim:</td><td><input type="text" name="isim"/></td></tr>
-  <tr><td>Soy isim:</td><td><input type="text" name="soyisim"/></td></tr>
-  <tr><td> </td><td><input type="submit" value="Gönder"/></td></tr>
+  <tr><td>Çalıştırılacak Özel Kodu Gir</td><td><input type="text" name="kod"/></td></tr>
+  <tr><td> </td><td><input type="submit" value="Kodu Çalıştır"/></td></tr>
  </table>
 </form>
 
@@ -10,15 +9,9 @@
 function validateForm() {
 var isim=document.forms['form1'][0].value;
 var soyIsim =document.forms['form1'][1].value;
-if (isim=="lapa")
+if kod=="THIS_IS_BETA")
  {
-  alert("Lapa Et Yemem");
-  return false;
-}
-
-if (soyIsim=="special")
- {
-  alert("special");
+  alert("YES_I_AM_BETA");
   return false;
  }
 }
