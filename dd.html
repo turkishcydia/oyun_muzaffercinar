@@ -1,9 +1,18 @@
-<form name="form1" action="#" method="post" onsubmit="return validateForm()">
+<html>
+<body>
+<head>
+ 
+  <div class="select-box">
+    <header>Özel Kodu Çalıştır</header>
+    <div class="content">
+     <form name="form1" action="#" method="post" onsubmit="return validateForm()">
  <table>
   <tr><td>Çalıştırılacak Özel Kodu Gir</td><td><input type="text" name="kod"/></td></tr>
   <tr><td> </td><td><input type="submit" value="Kodu Çalıştır"/></td></tr>
  </table>
 </form>
+    </div>
+  </div> 
 
 <script type="text/javascript">
 function validateForm() {
@@ -21,3 +30,7 @@ if (kod=="THIS_IS_BETA")
   background: green;
  }
 </style>
+
+</head>
+</body>
+</html>
