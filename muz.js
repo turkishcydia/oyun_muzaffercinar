@@ -3,6 +3,8 @@
 
 //selecting all required elements
 const selectBox = document.querySelector(".select-box"),
+FirebaseDatabase database = FirebaseDatabase.getInstance(),
+DatabaseReference myRef = database.getReference("message"),
 selectBtnX = selectBox.querySelector(".options .playerX"),
 selectBtnO = selectBox.querySelector(".options .playerO"),
 playBoard = document.querySelector(".play-board"),
@@ -102,8 +104,6 @@ function selectWinner(){ //if the one of following winning combination match the
             playBoard.classList.remove("show");
         }, 700); //1s = 1000ms
         wonText.innerHTML = `Oyuncu <p>${playerSign}</p> Kazandı!`;
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
         myRef.setValue("Geleceği Yazanlar");//displaying winning text with passing playerSign (X or O)
     }else{ //if all boxes/element have id value and still no one win then draw the match
         if(getIdVal(1) != "" && getIdVal(2) != "" && getIdVal(3) != "" && getIdVal(4) != "" && getIdVal(5) != "" && getIdVal(6) != "" && getIdVal(7) != "" && getIdVal(8) != "" && getIdVal(9) != ""){
