@@ -11,9 +11,9 @@
     <p>Gönderdiğin mesaja 2 veya 3 gün sonra Mail ile geri döneceğim.</p>
     <form class="contact-form">
       <label for="">İsminiz ve Soyadınız</label><br />
-      <input class="name" type="text" placeholder="name" /><br />
+      <input class="name" type="text" placeholder="İsminiz ve Soyadınız" /><br />
       <label for="">Email</label><br />
-      <input class="email" type="email" placeholder="email" /><br />
+      <input class="email" type="email" placeholder="Email" /><br />
       <label for="">Mesaj</label><br />
       <textarea
         class="message"
@@ -21,13 +21,18 @@
         id=""
         cols="30"
         rows="10"
-        placeholder="message"
+        placeholder="Mesaj"
       ></textarea
       ><br />
       <button type="submit">GÖNDER</button>
     </form>
 
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
