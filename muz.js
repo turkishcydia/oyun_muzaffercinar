@@ -109,7 +109,7 @@ function selectWinner(){ //if the one of following winning combination match the
                 resultBox.classList.add("show");
                 playBoard.classList.remove("show");
             }, 700); //1s = 1000ms
-            wonText.textContent = "Oyun Beraberlik ilr Bitti!"; //displaying draw match text
+            wonText.textContent = "Oyun Beraberlik ile Bitti!"; //displaying draw match text
         }
     }
 }
