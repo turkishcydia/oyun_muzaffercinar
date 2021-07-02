@@ -94,7 +94,7 @@ body{
 }
 .play-board .details{
   padding: 7px;
-  border-radius: 5px;
+  border-radius: 15px;
   background: #fff;
 }
 .play-board .players{
