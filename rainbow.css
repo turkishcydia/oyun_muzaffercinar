@@ -127,7 +127,7 @@ background-size: 1800% 1800%;
 }
 .play-board .details{
   padding: 7px;
-  border-radius: 5px;
+  border-radius: 15px;
   background: #fff;
 }
 .play-board .players{
@@ -143,7 +143,7 @@ background-size: 1800% 1800%;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 0;
-  border-radius: 15;
+  border-radius: 15px;
   width: 100%;
   text-align: center;
   cursor: default;
