@@ -84,7 +84,8 @@ background-size: 1800% 1800%;
   font-weight: 500;
   padding: 10px 0;
   border: none;
-  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)
+    background: rgb(234,96,252);
+  background: linear-gradient(140deg, rgba(234,96,252,1) 0%, rgba(234,128,252,1) 50%);
   border-radius: 15px;
   color: #fff;
   outline: none;
