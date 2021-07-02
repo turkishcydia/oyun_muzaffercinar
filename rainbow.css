@@ -84,7 +84,7 @@ background-size: 1800% 1800%;
   font-weight: 500;
   padding: 10px 0;
   border: none;
-  background-image: linear-gradient(left top, blue, green, transparent),
+  background: linear-gradient(left top, blue, green, transparent),
 -moz-linear-gradient(right top, blue, green, transparent);
   border-radius: 15px;
   color: #fff;
