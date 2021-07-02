@@ -100,7 +100,6 @@ body{
 .play-board .players{
   width: 100%;
   display: flex;
-  border-radius: 10px;
   position: relative;
   justify-content: space-between;
 }
@@ -112,6 +111,7 @@ body{
   font-weight: 500;
   padding: 10px 0;
   width: 100%;
+  border-radius: 15px;
   text-align: center;
   cursor: default;
   user-select: none;
