@@ -139,10 +139,11 @@ background-size: 1800% 1800%;
 .players span{
   position: relative;
   z-index: 2;
-  color:	#EA80FC;
+  color: transparent;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 0;
+  border-radius: 15;
   width: 100%;
   text-align: center;
   cursor: default;
@@ -208,7 +209,7 @@ background-size: 1800% 1800%;
 
 .result-box{
   padding: 25px 20px;
-  border-radius: 5px;
+  border-radius: 15px;
   max-width: 400px;
   width: 100%;
   opacity: 0;
@@ -244,7 +245,7 @@ background-size: 1800% 1800%;
   padding: 8px 20px;
   border: none;
   background:	#EA80FC;
-  border-radius: 5px;
+  border-radius: 15px;
   color: #fff;
   outline: none;
   cursor: pointer;
