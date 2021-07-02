@@ -100,6 +100,7 @@ body{
 .play-board .players{
   width: 100%;
   display: flex;
+  border-radius: 10px;
   position: relative;
   justify-content: space-between;
 }
@@ -175,7 +176,7 @@ body{
 
 .result-box{
   padding: 25px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   max-width: 400px;
   width: 100%;
   opacity: 0;
@@ -211,7 +212,7 @@ body{
   padding: 8px 20px;
   border: none;
   background:	#EA80FC;
-  border-radius: 5px;
+  border-radius: 15px;
   color: #fff;
   outline: none;
   cursor: pointer;
