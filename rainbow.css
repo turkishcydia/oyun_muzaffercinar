@@ -85,7 +85,7 @@ background-size: 1800% 1800%;
   padding: 10px 0;
   border: none;
     background: rgb(0, 221, 255);
-  background: linear-gradient(140deg, rgba(0, 221, 255,1) 0%, rgba(0, 0, 255,1) 50%);
+  background: linear-gradient(140deg, rgba(0, 221, 255,1) 0%, rgba(0, 0, 255,1) 100%);
   border-radius: 15px;
   color: #fff;
   outline: none;
