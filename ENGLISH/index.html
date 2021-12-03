@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BETA (v1.1)</title>
-    <link rel="stylesheet" href="https://turkishcydia.github.io/oyun_muzaffercinar/muzaffer.css">
+    <title>BETA Winter Season! ( 1.4 )</title>
+    <link rel="stylesheet" href="muzaffer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     
   <head>
@@ -22,9 +22,9 @@
 }
 
 .button1 {
-  background-color: white; 
-  color: black; 
-  border-radius: 8px;
+  background-color: black; 
+  color: white; 
+  border-radius: 30px;
   border: 2px solid #fff;
 }
 
@@ -32,6 +32,98 @@
   background-color: #fff;
   color: white;
 }
+    
+.butdate
+    {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        border: 2px solid #fff;
+        position: inline-block;
+          padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    }
+    
+.other
+    {
+        background-color: black;
+        color: white;
+        border-radius: 17px;
+          padding: 5px 15px;
+        position: inline-block;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+.other1
+    {
+        background-color: blue;
+        color: white;
+        border-radius: 17px;
+          padding: 5px 15px;
+        position: inline-block;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+.other2
+    {
+        background-color: red;
+        color: white;
+        border-radius: 17px;
+          padding: 5px 15px;
+        position: inline-block;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+.other3
+    {
+        background-color: purple;
+        color: white;
+        border-radius: 17px;
+          padding: 5px 15px;
+        position: inline-block;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+.other4
+    {
+        background-color: white;
+        color: black;
+        border-radius: 17px;
+          padding: 5px 15px;
+        position: inline-block;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
 
 .button2 {
   background-color: white; 
@@ -46,29 +138,42 @@
 
 </style>
       
+      
 <script>
-    alert("We apologize for the inconvenience, but you are currently using an older version's page to view the English language. For real updates, you should use Turkish language. (Soon all updates will be available in English.)");
+
+function renkDegistir(renk)
+{
+    document.body.style.background=renk;
+    
+}
+
 </script>
+      
 </head>
 <body>
-
-<button class="button button1" onclick="window.location.href = 'https://turkishcydia.github.io/oyun_muzaffercinar/settings.html';">Settings</button>
-
+    
+    
 </body>  
     
     
 </head>
 <body>
+    <canvas class="snow" id="snow" width="1848" height="720"></canvas>
   <!-- select box -->
   <div class="select-box">
-    <header>BETA (v1.1)</header>
+    <header>BETA Winter Season! ( 1.4 )</header>
     <div class="content">
-      <div class="title">Which player would you like to choose?</div>
+      <div class="title">Which Player Would You Like To Choose?</div>
       <div class="options">
         <button class="playerX">Player (X)</button>
         <button class="playerO">Player (O)</button>
       </div>
-      <div class="credit">Made by<a href="https://youtube.com/channel/UCU1zbFxqJgFL3Jt19kYZ9SQ" target="_blank">Muzaffer Efe Çınar</a></div>
+      <div class="credit"><a href="https://youtube.com/channel/UCU1zbFxqJgFL3Jt19kYZ9SQ" target="_blank">Muzaffer Efe Çınar</a> Tarafından Yapılmıştır.</div>
+        <div class="extraMenu">
+            <button class="butdate" onclick="window.location.href = 'settings.html';">Settings</button>
+            <button class="butdate" onclick="window.location.href = 'dd.html';">Run the Code</button>
+            <button class="butdate" onclick="window.location.href = 'updates.html';">About Updates</button>
+        </div>
     </div>
   </div> 
 
