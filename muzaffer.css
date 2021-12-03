@@ -156,7 +156,7 @@ body{
   left: 50%;
 }
 .players.active span:first-child{
-  color:	#EA80FC;
+  color:	#000;
 }
 .players.active span:nth-child(2){
   color: #fff;
@@ -226,7 +226,7 @@ body{
   font-weight: 500;
   padding: 8px 20px;
   border: none;
-  background:	#EA80FC;
+  background:	#000;
   border-radius: 15px;
   color: #fff;
   outline: none;
