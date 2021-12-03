@@ -4,10 +4,22 @@
   box-sizing: border-box;
 }
 
+.snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+  right: 0;
+  bottom:0;
+    z-index: 2;
+    pointer-events: none;
+}
+
 body {
   font-family: inter;
   font-weight: normal;
-  background: rgb(245, 245, 245);
+  background-color: #000;
+  
+  overflow-x: hidden;
 }
 
 h1 {
