@@ -7,7 +7,7 @@
 }
 ::selection{
   color: #fff;
-  background:	#EA80FC;
+  background:	#000;
 }
 body{
   background-color: #000;
@@ -121,7 +121,7 @@ body{
 .players span{
   position: relative;
   z-index: 2;
-  color:	#EA80FC;
+  color:	#000;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 0;
@@ -136,7 +136,7 @@ body{
   color: #fff;
 }
 .players.active span:last-child{
-  color:	#EA80FC;
+  color:	#000;
 }
 .players span:first-child{
   color: #fff;
