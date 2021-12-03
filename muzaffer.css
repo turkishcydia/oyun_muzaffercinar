@@ -10,7 +10,18 @@
   background:	#EA80FC;
 }
 body{
-  background:	#EA80FC;
+  background-color: #000;
+  
+  overflow-x: hidden;
+}
+.snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+  right: 0;
+  bottom:0;
+    z-index: 2;
+    pointer-events: none;
 }
 .select-box, .play-board, .result-box{
   position: absolute;
