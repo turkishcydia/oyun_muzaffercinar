@@ -139,9 +139,13 @@
     
     
 .dark-mode {
-  background-color: black;
-  color: #B0FBF8;
-}
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: #B0FBF8;
+        color: black;
+      }
 
 </style>
       
@@ -178,8 +182,8 @@ function renkDegistir(renk)
       <div class="credit"><a href="https://youtube.com/channel/UCU1zbFxqJgFL3Jt19kYZ9SQ" target="_blank">Muzaffer Efe Çınar</a> Tarafından Yapılmıştır.</div>
         <div class="extraMenu">
             <button class="butdate" onclick="window.location.href = 'settings.html';">Ayarlar (Settings)</button>
-            <button class="dilTusu" onclick="darkMode()">Darkmode</button>
-            <button class="dilTusu" onclick="lightMode()">LightMode</button>
+            <button class="butdate" onclick="darkMode()">Siyah Mod</button>
+            <button class="butdate" onclick="lightMode()">Beyaz Mod</button>
             <button class="butdate" onclick="window.location.href = 'dd.html';">Kodu Çalıştır (Run the Code)</button>
             <button class="butdate" onclick="window.location.href = 'updates.html';">Güncellemeler Hakkında</button>
         </div>
@@ -224,11 +228,19 @@ function renkDegistir(renk)
     
     
     <script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
-</script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
     
 
 </body>
